@@ -241,7 +241,8 @@ margin-bottom: 223px;
     padding: 183px 0 179px;
 }
 .testimonials .container{
-max-width: 811px;
+    max-width: 811px;
+    position: relative;
 }
 .testimonials .container .testimonials_text{
     font-family: 'Montserrat', sans-serif;
@@ -424,4 +425,26 @@ footer .container .footer_fl_right.news{
 footer .container .footer_fl_right.project{
     width: 57px;
     margin-left: 146px;
+}
+.container .owl-dots .owl-dot span{
+    display: block;
+    margin: 0 5px;
+    width: 6px;
+    height: 6px;
+    border-radius: 6px;
+    background-color: #b0e8e6;
+}
+.container .owl-dots .owl-dot.active span{
+    width: 10px;
+    height: 10px;
+    position: relative;
+    top: 2px;
+    background-color: white;
+}
+.container .owl-dots{
+    position: absolute;
+    width: 100%;
+    top: 254px;
+    left: 50%;
+    margin-left: -30px;
 }
